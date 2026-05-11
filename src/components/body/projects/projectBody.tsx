@@ -1,24 +1,27 @@
-import Image from "../../../assets/lms-client.jpg";
+import "../../../assets/css/projectBody.css";
+
+import lmsclient from "../../../assets/lms-client.jpg";
+import lmsscreenshot from "../../../assets/lms-screenshot.png";
 
 function projectBody() {
   return (
     <>
-      <div className="projects">
-        <div className="row">
-          <div className="col title">
-            <div className="row project-image">
-              <div className="col">
-                <img src={Image} alt="lms-client" />
-              </div>
-              <div className="col">
-                <img src={Image} alt="lms-client" />
-              </div>
-              <h5>Learning Management System</h5>
-            </div>
+      <div className="project-container">
+        <div className="project">
+          <h4 className="title">Learning Management System</h4>
+          <div className="image-container">
+            <img src={lmsclient} alt="lms-client" className="project-image" />
+            <img
+              src={lmsscreenshot}
+              alt="lms-screenshot"
+              className="project-image"
+            />
           </div>
-          <div className="col desc">
-            This is a Research Project for my clients from Institute of Teacher
-            Education.
+          <div className="description">
+            <p>
+              This is a Research Project for my clients from Institute of
+              Teacher Education.
+            </p>
           </div>
         </div>
       </div>
