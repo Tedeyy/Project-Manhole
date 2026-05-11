@@ -2,11 +2,18 @@
   justify-content: center;
   align-items: center;
   padding: 20px; /* Optional: adds breathing room around the edges */
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.project-container h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  font-weight: 700;
 }
 
 .project {
   width: 90%;
-  margin: 0 auto;
+  margin: 0 auto 20px auto;
   display: flex;
   flex-wrap: wrap; /* Allows children to wrap to the next line */
   border: 2px solid black;
@@ -19,6 +26,7 @@
   width: 100%; /* Forces the title to take up the entire top row */
   text-align: center;
   margin-bottom: 20px; /* Adds space between title and content */
+  font-weight: 500;
 }
 
 .image-container {

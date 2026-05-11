@@ -4,7 +4,7 @@ function footer() {
   return (
     <>
       <div className="footer">
-        <p>© 2025 Teddy Justin Bermudo. All Rights Reserved.</p>
+        <p>© 2026 Teddy Justin Bermudo. All Rights Reserved.</p>
       </div>
     </>
   );
