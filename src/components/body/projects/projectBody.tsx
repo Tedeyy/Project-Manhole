@@ -10,7 +10,7 @@ import litmeetscreenshot2 from "../../../assets/project/litmeet-screenshot2.png"
 function projectBody() {
   return (
     <>
-      <div className="project-container">
+      <div className="project-container" id="projects">
         <h1>Projects</h1>
         <div className="project">
           <div className="title">
